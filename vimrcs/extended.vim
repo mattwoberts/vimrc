@@ -14,7 +14,7 @@ colorscheme peaksea
 
 " Set font according to system
 if has("mac") || has("macunix")
-    set gfn=Menlo:h15
+    set gfn=Menlo:h14
 elseif has("win16") || has("win32")
     set gfn=Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("linux")
@@ -23,15 +23,15 @@ endif
 
 " Open MacVim in fullscreen mode
 if has("gui_macvim")
-    set fuoptions=maxvert,maxhorz
-    au GUIEnter * set fullscreen
+"     set fuoptions=maxvert,maxhorz
+"     au GUIEnter * set fullscreen
 endif
 
 " Disable scrollbars (real hackers don't use scrollbars for navigation!)
-set guioptions-=r
-set guioptions-=R
-set guioptions-=l
-set guioptions-=L
+" set guioptions-=r
+" set guioptions-=R
+" set guioptions-=l
+" set guioptions-=L
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
